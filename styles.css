@@ -1,0 +1,55 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Change font family as needed */
+    background-color: white2; /* Change background color */
+    color: black; /* Change text color */
+}
+
+.container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: white; /* Change header background color */
+    color: black; /* Change header text color */
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: white; /* Change footer background color */
+    color:black; /* Change footer text color */
+    padding: 20px;
+    text-align: center;
+}
